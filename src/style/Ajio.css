@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.ajio-page {
+  /* style={{border:"1px solid" , margin:"30px 50px 0px 50px"}}; */
+  border: 1px solid;
+  margin: 30px 50px 0px 50px;
+  display: flex;
+}
+.carousel-container {
+  flex-basis: 20%;
+  border: 1px solid blueviolet;
+}
+.mainimg-container {
+  flex-basis: 35%;
+}
+.details-container {
+  flex-basis: 40%;
+}
+
+.carousel-container {
+  position: relative;
+  /* Adjust width as necessary */
+}
+
+.slick-slider {
+  position: relative;
+  padding: 30px 0px;
+}
+
+.slick-arrow.slick-next {
+  transform: rotate(90deg);
+  left: 111px;
+  top: 93%;
+}
+.slick-arrow.slick-prev {
+  transform: rotate(90deg);
+  left: 111px;
+  top: 0%;
+}
+
+.thumbnail {
+  padding: 5px;
+}
+
+.thumbnail img {
+  display: block;
+  width: 100%;
+}
+
+.thumbnail.active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.mainimg-container {
+  margin-top: 20px;
+}
+
+.mainimg-container img {
+  width: 473px;
+  height: fit-content;
+}
+img {
+  border: 1px solid #c2c2c2;
+  width: 52px;
+  height: 66px;
+  margin: 0 auto;
+  cursor: pointer;
+}

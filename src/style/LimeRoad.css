@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #eee;
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: #333;
+}
+
+.limeroad-container {
+  display: flex;
+  margin: 30px;
+}
+.productimg-container {
+  flex-basis: 55%;
+  width: 50%;
+  margin-left: 20px;
+}
+.img-container {
+}
+.product-img {
+  width: 310px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 3px;
+}
+button.slick-arrow.slick-prev {
+  background: #d7d5d5;
+  height: 30px;
+  width: 50px;
+  top: 20%;
+  left: -23px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+button.slick-arrow.slick-next {
+  background: #626161;
+  height: 30px;
+  width: 50px;
+  top: 20%;
+  right: 1px;
+  border-top-left-radius: 42%;
+  border-bottom-left-radius: 42%;
+}
+.productDetails-container {
+  flex-basis: 47%;
+  background: #fff;
+  padding-left: 30px;
+}
+.brand-name {
+  color: #666;
+  font-size: 0.875rem;
+}
+.brand-name:hover {
+  color: #d3145a;
+}
+.rating {
+  display: flex;
+  align-items: end;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.rate {
+  font-size: 1.5rem;
+  color: #000;
+  text-transform: capitalize;
+}
+.logo-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.size-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 0.813rem;
+  font-weight: bold;
+  font-size: 0.813rem;
+  padding: 12px 0px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+}
+.size-chart {
+  cursor: pointer;
+  color: #333;
+  font-size: 0.75rem;
+  text-decoration: underline;
+}
+.sizes-btn-container {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.sizes-btn {
+  font-size: 1.125rem;
+  color: #4b4b4b;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.05) 1px 1px 2px 1px;
+  padding: 4px 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sizes-btn:hover {
+  color: #d3145a;
+}
+.price-offer-container {
+  display: flex;
+  gap: 45px;
+  margin-bottom: 15px;
+}
+.mrp {
+  font-size: 0.938rem;
+  text-decoration: line-through;
+}
+.final-mrp {
+  font-size: 1.125rem;
+}
+.saved {
+  color: #d3145a;
+  font-size: 0.938rem;
+}
+.offers,
+.offers-details {
+  color: #6fa40c;
+}
+.offers {
+  width: 30%;
+  border-radius: 4px;
+  padding: 2px 8px;
+  border: 1px solid #6fa40c;
+  text-transform: uppercase;
+}
+.tax {
+  color: #666;
+  font-size: 0.813rem;
+  margin-bottom: 10px;
+}
+.add-card-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.like-logo {
+  background: #9c3;
+  padding: 13px 0px 4px 0px;
+  width: 10%;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.add-to-card {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #eee;
+  width: 75%;
+  background-color: #9c3;
+  text-align: center;
+  font-weight: 500;
+  padding: 7px 4px;
+  border-radius: 4px;
+}
+.like-logo:hover,
+.add-to-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 2px 1px;
+}
+.sizechart-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 20px 0px;
+}
+.sizechart-details-title {
+  font-size: 0.938rem;
+  color: #666;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.size-parameters {
+  display: flex;
+  gap: 8px;
+}
+.centimeter {
+  font-size: 0.938rem;
+  color: #999;
+  cursor: pointer;
+}
+.inch {
+  font-size: 0.938rem;
+  color: #000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.sizechartTitles {
+  display: flex;
+  gap: 3px;
+  padding: 0px 20px;
+}
+.standard-sizes {
+  padding: 10px;
+  text-transform: uppercase;
+  background: #f8f8f8;
+  color: #999;
+  font-weight: 500;
+  font-size: 0.875rem;
+  border-radius: 4px;
+}
+.brand-sizes-title,
+.bust-size-title {
+  text-align: left;
+}
+.brand-sizes,
+.bust-size {
+  padding: 10px 11px;
+  text-transform: uppercase;
+  color: #666;
+  font-weight: 400;
+  font-size: 0.875rem;
+  border-radius: 4px;
+}
+/* .note {
+  padding-left: 30px;
+} */
+.delivery-return {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  color: #666;
+  padding-bottom: 12px;
+  font-weight: bold;
+}
+.delivery-details {
+  color: #555;
+  padding-bottom: 10px;
+}
+
+.description-title {
+  font-size: 0.875rem;
+  color: #666;
+  padding-bottom: 14px;
+  font-weight: bold;
+}
