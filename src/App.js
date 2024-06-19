@@ -2,8 +2,11 @@
 // import LimeRoad from "./Pages/LimeRoad";
 // import MytraPage from "./Pages/MytraPage";
 
-import Ajio from "./Pages/Ajio";
+// import Ajio from "./Pages/Ajio";
+// import Tatacliq from "./Pages/Tatacliq";
+import SnapDeal from "./Pages/SnapDeal";
 import { CarouselComponent } from "./utility/CarouselComponent";
+// import Nykaa from "./Pages/Nykaa";
 
 function App() {
   return (
@@ -12,7 +15,10 @@ function App() {
       {/* <Amazon /> */}
       {/* <LimeRoad /> */}
       {/* <CarouselComponent/>     */}
-      <Ajio />
+      {/* <Ajio /> */}
+      {/* <Nykaa /> */}
+      {/* <Tatacliq /> */}
+      <SnapDeal />
     </>
   );
 }

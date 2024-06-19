@@ -8,7 +8,7 @@ import star from "../Images/star.svg";
 function Amazon() {
   const [productThumbnail, setProductThumbnail] = useState([]);
   const [productImg, setProductImg] = useState([]);
-  const [currentImg, setCurrentImg] = useState(null);
+  const [currentImg, setCurrentImg] = useState(productImg[0]);
   useEffect(() => {
     setProductThumbnail([
       "https://m.media-amazon.com/images/I/411iv99Xv1L._SX38_SY50_CR,0,0,38,50_.jpg",
