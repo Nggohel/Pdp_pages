@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f3f6;
+    font-size: 14px;
+}
+
+.flipkart-page{
+    display: flex;
+    margin: 30px 150px;
+    border: 1px solid;
+}
+
+.thumbnail-container {
+    flex-basis: 5%;
+    background-color: #fff;
+  }
+
+.thumbnail-img {
+    height: 74px;
+    width: 64px;
+    object-fit: contain;
+    padding: 2px 3px;
+    cursor: pointer; 
+}
+
+.carousel-container {
+    position: relative;
+}
+.carousel-container div {
+    outline: none;
+  }
+  
+  .slick-slider {
+    position: relative;
+    padding: 0px 0px;
+    /* margin-top: 100px; */
+  }
+  
+  .slick-prev:before{
+    content: " " !important;
+  }
+
+  .slick-next:before{
+    content: " " !important;
+  }
+  .next-arrow {
+    height: 16px;
+    width: 16px;
+    margin-left: 37px;
+    margin-top: 16px;
+  }
+  .prev-arrow {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 78px;
+  }
+  
+  .slick-arrow.slick-next {
+    left: 111px;
+    top: 93%;
+   
+  }
+  .slick-arrow.slick-prev {
+    transform: rotate(180deg);
+    left: 113px;
+    top: 0%;
+  }
+  
+  .mainimg-container {
+    flex-basis: 35%;
+  }
+
+  .details-container{
+    padding-left: 30px;
+    flex-basis: 60%;
+    /* border: 3px solid blueviolet; */
+    background-color: #fff;
+  }
+
+  .mainimg-container {
+    flex-basis: 30%;
+  }
+  .main-img{
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid lightgray;
+  }
+  .brand-name{
+    color: #878787;
+    font-size: 16px;
+    display: block;
+    font-weight: 500;
+  }
+  .pd-name{
+    color: #212121;
+    font-size: 18px;
+    
+  }
+  .sp-offer{
+    font-weight: 500;
+    color: #26a541;
+    margin: 6px 0 -4px;
+  }
+  .mrp-container{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px ;
+  }
+  .final-mrp{
+    font-size: 28px;
+    font-weight: 500;
+    color: #212121;
+  }
+  .actul-mrp{
+    font-size: 16px;
+    margin-left: 12px;
+    color: #878787;
+    
+  }
+  .percentage-off{
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #388e3c;
+  }
+
+  .review{
+    font-size: 14px;
+    font-weight: 500;
+    color: #2874f0;
+  }
+  .color-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+    
+  }
+  .aval-color ,.size-title {
+    font-size: 14px;
+    color: #5a5a59;
+    text-transform: capitalize;
+    /* font-weight: 500 */
+    text-align: center;
+  }
+  .avlcolor-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+  }
+  .avlcolor-img {
+    height: 70px;
+    width: 60px;
+    object-fit: cover;
+    /* padding: 3px 10px; */
+    cursor: pointer;
+    /* border: 1.5px solid blue; */
+    border-radius: 4px;
+    /* margin-right: 10px; */
+  }
+  .avlcolor-img:active {
+    border: 1px solid;
+  }
+  .color-name {
+    color: #999;
+    text-align: center;
+    font-size: 11px;
+  }
+  .size-container {
+    margin-top: 40px;
+    display: flex;
+    gap: 50px;
+     
+  }
+  .size-btn {
+    margin: 0px 15px 8px 0px;
+    padding: 10px;
+    font-size: 13px;
+    color: #5a5a59;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #e5e5e5;
+    min-width: 35px;
+}
+.pd-description{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 67px;
+}
+.pd-description-1{
+    
+    border: 1px solid #f0f0f0;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap:30px
+}
+.pd-description-title{
+    font-weight: 400;
+    color: #212121;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.pd-des-title{
+    margin-top: 24px;
+    border-radius: 2px 2px 0 0;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-bottom: none;
+    padding: 24px;
+    color: #212121;
+}
+.view-all{
+    border-radius: 0 0 2px 2px;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    color: #2874f0;
+    font-weight: 400;
+    padding: 20px;
+}

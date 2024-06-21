@@ -12,6 +12,7 @@ function Ajio() {
   const [productImg, setProductImg] = useState([]);
   const [activeSlide, setActiveSlide] = useState(0);
   let sliderRef = useRef(null);
+  
   useEffect(() => {
     setProductImg([
       "https://assets.ajio.com/medias/sys_master/root/20240611/L5Iv/666834a416fd2c6e6a8dbbb6/-473Wx593H-469607489-blue-MODEL.jpg",

@@ -2,10 +2,15 @@
 // import LimeRoad from "./Pages/LimeRoad";
 // import MytraPage from "./Pages/MytraPage";
 
+// import Levi from "./Pages/Levi";
+import Meesho from "./Pages/Meesho";
+
+// import Flipkart from "./Pages/Flipkart";
+
 // import Ajio from "./Pages/Ajio";
 // import Tatacliq from "./Pages/Tatacliq";
-import SnapDeal from "./Pages/SnapDeal";
-import { CarouselComponent } from "./utility/CarouselComponent";
+// import SnapDeal from "./Pages/SnapDeal";
+// import { CarouselComponent } from "./utility/CarouselComponent";
 // import Nykaa from "./Pages/Nykaa";
 
 function App() {
@@ -18,7 +23,10 @@ function App() {
       {/* <Ajio /> */}
       {/* <Nykaa /> */}
       {/* <Tatacliq /> */}
-      <SnapDeal />
+      {/* <SnapDeal /> */}
+      {/* <Flipkart/> */}
+      {/* <Levi/>  */}
+      <Meesho/>
     </>
   );
 }
